@@ -1,0 +1,233 @@
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+    display: none;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+        .president{
+            height:450px;
+            width:450px;
+            border-radius:40px;
+            margin-right:100px;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+       
+        .home{
+            text-decoration: none;
+            color: black;
+        }
+        .paa{
+            position: relative;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            z-index: 100000;
+        }
+        .back{
+            background-color:chocolate;
+            background:linear-gradient(to right, rgb(255, 168, 87);, rgb(243, 154, 37)) ;
+        }
+        
+        .logo{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border-top: 10in;
+            border-left: 10in;
+            
+        }
+        .pres{
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            font-size: xx-large;
+        }
+        
+        .pres1{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-right:100px;
+        }
+
+        .pres2{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+        }
+
+        .pres3{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-left:100px;
+        }
+        .pres4{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-right:100px;
+        }
+        .pres5{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+           
+        }
+        .pres6{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-left:100px;
+        }
+        .pres7{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-right:100px;
+        }
+        .pres8{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            
+        }
+        .pres9{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-left:100px;
+        }
+        .pres10{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-right:100px;
+        }
+        .pres11{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+    
+        }
+        .pres12{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-left:100px;
+        }
+        .pres13{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-right:100px;
+        }
+        .pres14{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+           
+        }
+        .pres15{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-left:100px;
+        }
+        .pres16{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            margin-right:100px;
+        }
+        .pres17{
+            height:350px;
+            width:350px;
+            border-radius:40px;
+            
+        }
+        .p1{
+            margin-right:100px;
+        }
+        .p3{
+            margin-left:100px;
+        }
+        .p4{
+            margin-right:100px;
+        }
+        .p6{
+            margin-left:100px;
+        }
+        .p7{
+            margin-right:100px;
+        }
+        .p9{
+            margin-left:100px;
+        }
+        .p10{
+            margin-right:100px;
+        }
+        .p12{
+            margin-left:100px;
+        }
+        .p13{
+            margin-right:100px;
+        }
+        .p15{
+            margin-left:100px;
+        }
+        .p16{
+            margin-right:100px;
+        }
+       
+
+        .container{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .box{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width:25rem;
+            min-width:18rem;
+            margin: 10px;
+            text-align: center;
+        }
+        .container .box:hover{
+            transform: scale(1.1);
+        }
